@@ -1,0 +1,1 @@
+blastn -out hehe.xml -outfmt 5 -query test1.fasta -db db/refdb -evalue 0.001
