@@ -10,8 +10,9 @@ _02-712: Computational Methods for Biological Modeling and Simulation_
 
 ## Usage
 **Convert `.fastq` to `.fasta`**  
-Defaults converts `IonXpress_001_[...].fastq` to `test1.fasta`  
-`.fastq` are Drosophila transcripts from Professor Lopez  
+Defaults converts `IonXpress_001_[...].fastq` to `test.fasta`  
+`IonXpress_001_[...].fastq` are Drosophila transcripts from [Professor Lopez]
+(http://www.cmu.edu/bio/faculty/lopez.html)  
 
         $ python fastqtofasta.py input_seq.fastq output_seq.fasta
         (or for defaults)
