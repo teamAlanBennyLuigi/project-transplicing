@@ -21,12 +21,13 @@ Defaults converts `IonXpress_001_[...].fastq` to `test.fasta`
 
 **Detect Trans-splicing events**  
 **Using Dynamic Programming method:** `getrawtranscriptassignment.py`  
-Defaults using reference transcriptome sequence6992.fasta from modENCODE  
-(from the [Berkeley Drosophila Genome Project]
+Defaults using `test.fasta` that was generated from the previous step and  
+reference transcriptome `sequence6992.fasta` from modENCODE  
+([Berkeley Drosophila Genome Project]
 (http://www.fruitfly.org/sequence/release5genomic.shtml))
 
         Defaults:
-        InputSequence (seqfile) = test1.fasta
+        InputSequence (seqfile) = test.fasta
         ReferenceSequence (reffile) = sequence6992.fasta
 
         $ python dp.py seqfile.fasta reffile.fasta
