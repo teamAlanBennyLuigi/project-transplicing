@@ -8,8 +8,9 @@ _02-712: Computational Methods for Biological Modeling and Simulation_
 + Benny Jacob
 + Luigi Leung
 
-## Usage
-**Convert `.fastq` to `.fasta`**  
+Usage
+-----
+### Convert `.fastq` to `.fasta`
 Defaults converts `IonXpress_001_[...].fastq` to `test.fasta`  
 `IonXpress_001_[...].fastq` are Drosophila transcripts from [Professor Lopez]
 (http://www.cmu.edu/bio/faculty/lopez.html)  
@@ -19,10 +20,10 @@ Defaults converts `IonXpress_001_[...].fastq` to `test.fasta`
         $ python fastaqtofasta.py
 
 
-**Detect Trans-splicing events**  
+### Detect Trans-splicing events: DP
 **Using Dynamic Programming method:** `getrawtranscriptassignment.py`  
 Defaults using `test.fasta` that was generated from the previous step and  
-reference transcriptome `sequence6992.fasta` from modENCODE  
+reference transcriptome `sequence6992.fasta` from modENCODE
 ([Berkeley Drosophila Genome Project]
 (http://www.fruitfly.org/sequence/release5genomic.shtml))
 
@@ -34,5 +35,5 @@ reference transcriptome `sequence6992.fasta` from modENCODE
         (or for defaults)
         $ python dp.py
 
-**Detect Trans-splicing events**  
+### Detect Trans-splicing events: BLAST
 **Using BLAST method:** TBA
